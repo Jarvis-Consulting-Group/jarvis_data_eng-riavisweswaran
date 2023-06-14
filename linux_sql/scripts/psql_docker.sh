@@ -15,7 +15,7 @@ container_status=$?
 case $cmd in
   create)
 
- 	 #Check if the container exists and if so, exit
+ 	#Check if the container exists and if so, exit
  	if [ $container_status -eq 0 ]; then
 		echo 'Container already exists'
 		exit 1
