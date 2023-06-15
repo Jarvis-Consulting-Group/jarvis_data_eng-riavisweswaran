@@ -1,5 +1,5 @@
--- switch to host_agent
-c/host_agent
+--switch to host_agent
+\c host_agent
 
 -- Create host_info table if it does not exist
 CREATE TABLE IF NOT EXISTS PUBLIC.host_info
