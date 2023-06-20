@@ -14,8 +14,8 @@ if [ "$#" -ne 5 ]; then
 fi
 
 #Save virtual memory, hostname and CPU statistics
-vmstat_mb=$(vmstat --unit M)
 lscpu_out=$(lscpu)
+free_k=$(free -k)
 hostname=$(hostname -f)
 
 #Retrieve hardware variables
@@ -24,25 +24,16 @@ cpu_architecture=$(echo "$lscpu_out"  | egrep "^Architecture:" | awk '{print $2}
 cpu_model=$(echo "$lscpu_out"  | egrep "^Model:" | awk '{print $2}' | xargs)
 cpu_mhz=$(echo "$lscpu_out" | egrep "^CPU MHz:" | awk '{print $3}' | xargs)
 l2_cache=$(echo "$lscpu_out" | egrep "^L2 cache:" | awk '{print $3}' | sed 's/K//' | xargs)
-total_mem=$(echo "$vmstat_mb" | awk '{print $4}' | tail -n1 | xargs)
+total_mem=$(echo "$free_k" | egrep "^Mem:" | awk '{print $2}' | xargs)
 
 #Current time in UTC format
 timestamp=$(date +"%Y-%m-%d %H:%M:%S")
 
 #Insert data into host_info table
-insert_stmt="INSERT INTO host_info(
-		id, hostname, cpu_number, cpu_architecture, cpu_model, cpu_mhz,
-                l2_cache, total_mem, timestamp
-	       )
-	        VALUES
-       	       (
-		DEFAULT, '$hostname', '$cpu_number', '$cpu_architecture', '$cpu_model', '$cpu_mhz',
-		'${l2_cache%%K}', '$total_mem', '$timestamp'
-	       )";
+insert_stmt="INSERT INTO host_info(id, hostname, cpu_number, cpu_architecture, cpu_model, cpu_mhz, l2_cache, total_mem, timestamp) VALUES(DEFAULT, '$hostname', '$cpu_number', '$cpu_architecture', '$cpu_model', '$cpu_mhz', '$l2_cache', '$total_mem', '$timestamp')";
 
 #Set up variable for psql password
 export PGPASSWORD=$psql_password
 #Insert into database
 psql -h $psql_host -p $psql_port -d $db_name -U $psql_user -c "$insert_stmt"
 exit $?
-
