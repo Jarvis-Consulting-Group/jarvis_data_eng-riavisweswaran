@@ -30,7 +30,7 @@ To implement the project, we set-up a Linux environment running CentOS 7 and des
 Our implementation approach started with installing Docker, provisioning a psql instance, and installing the psql CLI tool. From there, we created a container to host a PostgreSQL database and designed a schema to store hardware statistics. The Linux cluster monitoring agent was developed using two bash scripts: `host_info.sh` to retrieve hardware specifications and `host_usage.sh` to provide minute-to-minute monitoring of server usage. `Host_info.sh` was executed once during installation and inserted into the PostgreSQL database. `Host_usage.sh` executes every minute through a cron job to provide server usage data. 
 
 ## Architecture
-![image info](assets/architecture.png)
+![image info](assets/architecture.PNG)
 ## Scripts
 - _psql_docker.sh:_
   - The script creates a psql instance within a docker container. 
