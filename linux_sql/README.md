@@ -22,7 +22,7 @@ psql -h localhost -U postgres -d host_agent -f sql/ddl.sql
 #Crontab setup
 crontab -e
 #Add in editor to collect usage statistics every minute
-* * * * * bash /home/centos/dev/jrvs/bootcamp/linux_sql/host_agent/scripts/host_usage.sh localhost 5432 host_agent postgres password > /tmp/host_usage.log
+* * * * * bash [path to ...]/host_usage.sh localhost 5432 host_agent postgres password > /tmp/host_usage.log
 ```
 ## Implementation
 To implement the project, we set-up a Linux environment running CentOS 7 and designed an MVP to enable the LCA team to write SQL queries for future resource planning.
@@ -33,7 +33,7 @@ Our implementation approach started with installing Docker, provisioning a psql 
 ![image info](assets/architecture.PNG)
 ## Scripts
 - _psql_docker.sh:_
-  - The script creates a psql instance within a docker container. 
+  - The script creates a Docker container called jrvs-psql. 
   - It contains three input variables: username, password and input command. 
   - The script checks the status of the Docker container and uses a switch case to create, start or stop the container based on the input command.
 - _host_info.sh:_
@@ -45,8 +45,6 @@ Our implementation approach started with installing Docker, provisioning a psql 
 - _crontab:_
   - Crontab monitors the data on each server by running host_usage.sh every minute.
   - The server usage statistics are stored and updated minute-to-minute in the PostgreSQL database
-- _queries.sql:_
-  - Users can write SQL queries to retrieve the data stored in the PostgreSQL database
 
 ## Database Modeling
 The host_info table is used to store hardware specifications of each Linux host.
@@ -73,9 +71,9 @@ The foreign key constraint on this table is host_id which is referenced in the h
 |--------------|-----------|--------------------------------------------------|
 | timestamp    | TIMESTAMP | Timestamp of when usage statistics were inserted |
 | host_id      | INTEGER   | Referencing ID from host_info table              |
-| memory_free  | INTEGER   | Free memory in host (MB)                         |
-| cpu_idle     | INTEGER      | CPU idle time                                    |
-| cpu_kernel   | INTEGER      | CPU kernel code                                  |
+| memory_free  | INTEGER   | Free memory in host (KB)                         |
+| cpu_idle     | INTEGER      | CPU idle time (%)                                |
+| cpu_kernel   | INTEGER      | CPU kernel code (%)                              |
 | disk_io      | INTEGER   | Number of disk I/O operations                    |
 | disk_available | INTEGER  | Available disk space (MB)                        |
 
@@ -88,7 +86,7 @@ The foreign key constraint on this table is host_id which is referenced in the h
 ### Result:
   | CONTAINER ID | IMAGE | COMMAND | CREATED    | STATUS    |PORTS | NAMES |
   | --- | --- | --- |------------|-----------| --- | --- |
-  | 3929a630fbb8 | postgres:9.6-alpine | "docker-entrypoint.s"| 6 days ago | Up 6 days | <br/>0.0.0.0:5432->5432/tcp, :::5432->5432/tcp | jrvs-psql |
+  | 3929a630fbb8 | postgres:9.6-alpine | "docker-entrypoint.s"| 6 days ago | Up 6 days | <br/>0.0.0.0:5432->5432/tcp, :::5432->5432/tcp | jrvs-psql |
 
 - Test host_info.sh
  ```bash
@@ -97,8 +95,8 @@ SELECT * FROM host_info;
   ```
 ### Result:
 |id | hostname | cpu_number | cpu_architecture | cpu_model | cpu_mhz  | l2_cache | timestamp           | total_mem |
-| --- | --- | --- | --- |----|----------|-----|---------------------|--------|
-|1 | jrvs-remote-desktop-centos7-6.us-central1-a.c.spry-framework-236416.internal| 2 | x86_64 | 63 | 2299.998 | 256 | 2023-06-14 13:16:23 | 1378   |
+| --- | --- | --- | --- |----|----------|-----|---------------------|----|
+|1 | jrvs-remote-desktop-centos7-6.us-central1-a.c.spry-framework-236416.internal| 2 | x86_64 | Intel(R) Xeon(R) CPU @ 2.30GHz | 2299.998 | 256 | 2023-06-14 13:16:23 | 7489436   |
 
 - Test host_usage.sh
  ```bash
@@ -108,7 +106,7 @@ SELECT * FROM host_usage;
 ### Result:
 | timestamp           | host_id | memory_free | cpu_idle | cpu_kernel | disk_io | disk_available |
   |---------------------| --- |------|----|---|----|----------------|
-| 2023-06-20 18:03:01 | 1 | 1378 | 90 | 4 | 2  | 3              |
+| 2023-06-20 18:03:01 | 1 | 123208 | 90 | 4 | 2  | 3              |
 
 - Test crontab
  ```bash
@@ -117,9 +115,9 @@ SELECT * FROM host_usage;
   ```
 ### Result:
 | timestamp           | host_id | memory_free | cpu_idle | cpu_kernel | disk_io | disk_available |
-  |---------------------| --- |--------|----------|------------|---------|----------------|
-| 2023-06-20 18:03:01 | 1 | 1378   | 90       | 4          | 2       | 3              |
-| 2023-06-20 18:04:00 | 1 | 1376   | 90       | 4          | 2       | 3              |
+  |---------------------| --- |-------------|----------|------------|---------|----------------|
+| 2023-06-20 18:03:01 | 1 | 123208      | 90       | 4          | 2       | 3              |
+| 2023-06-20 18:04:00 | 1 | 121308      | 90       | 4          | 2       | 3              |
 
 ## Deployment
 
