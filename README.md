@@ -1,50 +1,45 @@
 # Ria Visweswaran . Jarvis Consulting
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis a orci ac malesuada. Vivamus ligula elit, viverra eu ante porttitor, blandit convallis augue. Aliquam justo justo, mollis at lacus eu, rutrum finibus est. Vestibulum venenatis purus id accumsan pretium. In efficitur magna nec enim laoreet tincidunt. Ut libero metus, scelerisque nec eros vitae, sagittis pellentesque enim. Donec dictum felis volutpat, vehicula magna eu, imperdiet elit. Phasellus ut velit a massa efficitur faucibus. Sed volutpat, lacus sed sagittis luctus, elit.
+As a recent Finance and Economics graduate from Wilfrid Laurier University, I have taken several courses in RDBMS and developed a keen interest in business systems analysis. My internships have led across broad spheres of the fintech space, starting at a venture capital firm where I networked with founders of start-up technology companies, documented their processes and leveraged Python APIs to streamline data entry. At CGI, I liaised between clients, SMEs and implementation teams for requirements elicitation and to ensure that SLAs were being met. Additionally, I am proud to be the founder of several charity initiatives that have raised funds for the Down Syndrome Association of Toronto and the Arthritis Society of Canada. I am excited to bring my dynamic leadership experience, collaborative skills and technical experience to a full-time business systems analyst role.
 
 ## Skills
 
-**Business Skills:** Donec, Donec, Donec, fermentum, Donec
+**Business Skills:** Agile/Scrum and Waterfall, Cross-functional Communication, Requirements Elicitation, Excel (macros, pivot tables, VLOOKUP, formulas), CRM (Salesforce, Hubspot)
 
-**Technical Skills:** RDBMS/SQL, Data Modeling/Mapping, Data Analytics
+**Technical Skills:** RDBMS/SQL, Data Modeling/Mapping, Data Analytics (R, Stata), Python, Power BI
 
 ## Jarvis Projects
 
-Project source code: [https://github.com/jarviscanada/jarvis_data_eng_demo](https://github.com/jarviscanada/jarvis_data_eng_demo)
+Project source code: [https://github.com/Jarvis-Consulting-Group/jarvis_data_eng-riavisweswaran](https://github.com/Jarvis-Consulting-Group/jarvis_data_eng-riavisweswaran)
 
 
-**Linux Cluster Resource Monitoring App** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/master/linux_sql)]: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
-
-**Python Data Analytics** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/master/python_data_anlytics)]: Not Started
-
-**Hadoop** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/master/hadoop)]: Not Started
+**Linux Cluster Resource Monitoring App** [[GitHub](https://github.com/Jarvis-Consulting-Group/jarvis_data_eng-riavisweswaran/tree/master/linux_sql)]: Designed a database schema in PostgreSQL to retrieve hardware statistics and minute-by-minute host usage data based on requirements for the LCA team. Utilized Linux command lines, bash scripts, Docker and crontab to retrieve data. Documented scope, database modelling, diagrams and code, and stored in local and remote repositories using Git/GitHub.
 
 
 ## Highlighted Projects
-**Web app for resturant** [[GitHub](https://github.com/jarviscanada/jarvis_profile_builder)]: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
-
-**Machine Learning**: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
+**Research Paper - Relative-age effect in the NHL**: Used macros to automate data collation, developed a statistical model in R, and documented the impact of findings on key stakeholders. Used probit modelling and data analysis to posit solutions to complex problems.
 
 
 ## Professional Experiences
 
-**Software Developer, Jarvis (2020-present)**: Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis.
+**Technical Consultant, Jarvis (2023-present)**: Work within an Agile/Scrum framework to collaborate with cross-functional teams and design RDBMS systems to meet the business goals. Making recommendations for solutions or improvements that can be accomplished through new technology or alternative uses of existing technology. Possess in-depth knowledge of Linux, SQL, PostgreSQL, Docker and VM as well as Git version control tools.
 
-**Tutor, XYZ Company (2019)**: Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis.
+**Research Analyst, Imzado Trading (2023)**: Analyzed macro trends of stock behaviours including scatter of variation, stock convergences and risk arbitrage to to prevent losses on investments. Leveraged R to build statistical simulations, Trello to manage workflows and Excel's VLOOKUP, statistical formulas, nested If statements, pivot tables and charts to find optimal success ratios.
+
+**Project Control Officer, CGI (2020-2021)**: Collaborated with SMEs in the MRD sector to conduct requirements elicitation and ensure cohesion with design and implementation of SAP projects. Worked across 13 client accounts and developed monthly Power BI reports to identify trends, patterns, and anomalies of monthly KPIs. Received an award of excellence for designing a high-level forecasting solution to meet system needs of a key client, resulting in a $200,000 statement of work.
+
+**Investment Analyst, Good News Ventures (2019)**: Worked closely with stakeholders through daily stand-ups and ensured that financial data, equity derivatives and market trends were documented to support strategic decision-making. Leveraged HubSpot's Python API to streamline data entry processes and update records for 200+ prospective investments, generating contact lists based on specific queries. Conducted meetings with CEOs of SaaS, AI and Quantum start-ups to analyze business operations and discuss potential partnerships.
 
 
 ## Education
-**XYZ university (2012-2016)**, Bachelor of Applied Sciences, Electrical and Computer Engineering
-- Scholarship
-- Dean's List (2015, 2016): Ut enim ad minim veniam
-- GPA: 3.8/4.0
-
-**XYZ university (2016-2018)**, Master of Engineering, Electrical and Computer Engineering
+**Wilfrid Laurier University (2018-2022)**, Honours Bachelor of Arts, Finance and Economics
+- President's Gold Scholarship
+- Dean's List (2022)
 
 
 ## Miscellaneous
-- Udacity Machine Learning (2019)
-- Winner
-- Basketball player; joined xyz club
-- Competitive gaming; compete for xyz
-- Volunteer, ABC Food bank: Ut enim ad minim veniam
+- CGI Award of Excellence (2021)
+- Poetry - Young Voices Magazine (2019)
+- Karate; black belt
+- Writing; 100,000 word manuscript over 4 months
+- Volunteer, Down Syndrome Association of Toronto & Beer Store Leukemia Bottle Drive

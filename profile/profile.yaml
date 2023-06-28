@@ -1,7 +1,7 @@
 # Preferred name (Characters only)
 name: "Ria Visweswaran"
 # Your GitHub repo root URL
-github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_demo
+github_repo_root_url: https://github.com/Jarvis-Consulting-Group/jarvis_data_eng-riavisweswaran
 
 # Introduce yourself (80-120 words)
 # Suggestions: you should 
@@ -9,24 +9,26 @@ github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_demo
 # 2) explain your passion for the role you are looking for (e.g. developer, BSA, QA, tech support, etc.)
 # 3) mention what kind of role you are looking for
 # 4) briefly talk about your qualifications (soft and tech) to justify why the hiring manager should hire your 
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis a orci ac malesuada. Vivamus ligula elit, viverra eu ante porttitor, blandit convallis augue. Aliquam justo justo, mollis at lacus eu, rutrum finibus est. Vestibulum venenatis purus id accumsan pretium. In efficitur magna nec enim laoreet tincidunt. Ut libero metus, scelerisque nec eros vitae, sagittis pellentesque enim. Donec dictum felis volutpat, vehicula magna eu, imperdiet elit. Phasellus ut velit a massa efficitur faucibus. Sed volutpat, lacus sed sagittis luctus, elit.
+summary: As a recent Finance and Economics graduate from Wilfrid Laurier University, I have taken several courses in RDBMS and developed a keen interest in business systems analysis. My internships have led across broad spheres of the fintech space, starting at a venture capital firm where I networked with founders of start-up technology companies, documented their processes and leveraged Python APIs to streamline data entry. At CGI, I liaised between clients, SMEs and implementation teams for requirements elicitation and to ensure that SLAs were being met. Additionally, I am proud to be the founder of several charity initiatives that have raised funds for the Down Syndrome Association of Toronto and the Arthritis Society of Canada. I am excited to bring my dynamic leadership experience, collaborative skills and technical experience to a full-time business systems analyst role.
 
 skills:
   # Please include 
   #     1)soft skills (e.g. elicitation, communicaiton, collaberation, interpersonal, etc ) 
   #     2) business tools (such as Excel, Viso, etc.)
   Business Skills:
-    - Donec
-    - Donec
-    - Donec
-    - fermentum
-    - Donec
+    - Agile/Scrum and Waterfall
+    - Cross-functional Communication
+    - Requirements Elicitation
+    - Excel (macros, pivot tables, VLOOKUP, formulas)
+    - CRM (Salesforce, Hubspot)
   # Please add more data related skills, such as Python, Tableau, R, Matlab, AI, ML, Statistics, etc.
   # You can also add some programming skills, such as programming languages, GIT, Linux, Cloud Platform, tools, etc.
   Technical Skills:
     - RDBMS/SQL
     - Data Modeling/Mapping
-    - Data Analytics
+    - Data Analytics (R, Stata)
+    - Python
+    - Power BI
 
 # List of Jarvis projects
 # Please describe your resume from a BSA perspective (e.g. requirement elicitation, scope, stakeholder, coordination, diagrams)
@@ -35,73 +37,62 @@ jarvis_projects:
     git_url: "/linux_sql"
     # Focus on BSA work instead of development work
     # Include the following keywords: BRD, SRD, Elicitation, stakeholder, reqruiement, analysis, RDBMS, SQL, data modeling, SLA
-    description: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
-  - name: "Python Data Analytics"
-    git_url: "/python_data_anlytics"
-    # Focus on BSA work instead of development work
-    # e.g. solve business problem, requirement, data sources, analytics, stakeholders, documentation
-    description: ""
-  - name: "Hadoop"
-    git_url: "/hadoop"
-    description: ""
+    description: Designed a database schema in PostgreSQL to retrieve hardware statistics and minute-by-minute host usage data based on requirements for the LCA team. Utilized Linux command lines, bash scripts, Docker and crontab to retrieve data. Documented scope, database modelling, diagrams and code, and stored in local and remote repositories using Git/GitHub.
 
 # List of personal or academic projects
 # Please focus on transferable skills, such as soft skills and data related skills
 highlighted_projects:
     #project name
-  - name: "Web app for resturant"
-    #URL is optional
-    git_url: "https://github.com/jarviscanada/jarvis_profile_builder"
+  - name: "Research Paper - Relative-age effect in the NHL"
     # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
-  - name: "Machine Learning"
-    git_url:
-    description: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
+    description: Used macros to automate data collation, developed a statistical model in R, and documented the impact of findings on key stakeholders. Used probit modelling and data analysis to posit solutions to complex problems.
 
 # List of professional experience
 # Please focus on transferable skills, such as soft skills and data related skills
 professional_experience:
   #Write your Jarvis role as a professional experience rather than training.
-  - title: "Software Developer"
+  - title: "Technical Consultant"
     company: "Jarvis"
-    duration: "2020-present"
+    duration: "2023-present"
     # The project description must start with an action verb (https://bit.ly/3guO98u)
     # Avoid the following terms: training, learning, etc. Instead, you should focus on the work, such as worked on XYY; Wrote ABC document; Analyzed QWE project;
-    description: "Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis."
-  - title: "Tutor"
-    company: "XYZ Company"
+    description: "Work within an Agile/Scrum framework to collaborate with cross-functional teams and design RDBMS systems to meet the business goals. Making recommendations for solutions or improvements that can be accomplished through new technology or alternative uses of existing technology. Possess in-depth knowledge of Linux, SQL, PostgreSQL, Docker and VM as well as Git version control tools."
+  - title: "Research Analyst"
+    company: "Imzado Trading"
+    duration: "2023"
+    description: "Analyzed macro trends of stock behaviours including scatter of variation, stock convergences and risk arbitrage to to prevent losses on investments. Leveraged R to build statistical simulations, Trello to manage workflows and Excel's VLOOKUP, statistical formulas, nested If statements, pivot tables and charts to find optimal success ratios."
+  - title: "Project Control Officer"
+    company: "CGI"
+    duration: "2020-2021"
+    description: "Collaborated with SMEs in the MRD sector to conduct requirements elicitation and ensure cohesion with design and implementation of SAP projects. Worked across 13 client accounts and developed monthly Power BI reports to identify trends, patterns, and anomalies of monthly KPIs. Received an award of excellence for designing a high-level forecasting solution to meet system needs of a key client, resulting in a $200,000 statement of work."
+  - title: "Investment Analyst"
+    company: "Good News Ventures"
     duration: "2019"
-    description: "Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis."
+    description: "Worked closely with stakeholders through daily stand-ups and ensured that financial data, equity derivatives and market trends were documented to support strategic decision-making. Leveraged HubSpot's Python API to streamline data entry processes and update records for 200+ prospective investments, generating contact lists based on specific queries. Conducted meetings with CEOs of SaaS, AI and Quantum start-ups to analyze business operations and discuss potential partnerships."
 
 #List of edcuation
 education: 
-  - school_name: "XYZ university"
-    duration: "2012-2016"
-    degree: "Bachelor of Applied Sciences"
-    department: "Electrical and Computer Engineering"
+  - school_name: "Wilfrid Laurier University"
+    duration: "2018-2022"
+    degree: "Honours Bachelor of Arts"
+    department: "Finance and Economics"
     # optional
     awards_achievements: 
-      - "Scholarship"
-      - "Dean's List (2015, 2016): Ut enim ad minim veniam"
-      - "GPA: 3.8/4.0"
-  - school_name: "XYZ university"
-    duration: "2016-2018"
-    degree: "Master of Engineering"
-    department: "Electrical and Computer Engineering"
-    awards_achievements: 
+      - "President's Gold Scholarship"
+      - "Dean's List (2022)"
 
 #Optional section
 others:
     #category
-  - title: "Certificates"
+  - title: "Awards"
     #list of items
     bullets:
-      - "Udacity Machine Learning (2019)"
-  - title: "Awards"
+      - "CGI Award of Excellence (2021)"
+  - title: "Publications"
     bullets:
-      - "Winner"
+      - "Poetry - Young Voices Magazine (2019)"
   - title: "Activities/Hobbies"
     bullets:
-      - "Basketball player; joined xyz club"
-      - "Competitive gaming; compete for xyz"
-      - "Volunteer, ABC Food bank: Ut enim ad minim veniam"
+      - "Karate; black belt"
+      - "Writing; 100,000 word manuscript over 4 months"
+      - "Volunteer, Down Syndrome Association of Toronto & Beer Store Leukemia Bottle Drive"
