@@ -4,7 +4,7 @@ I am a recent Finance and Economics graduate from Wilfrid Laurier University wit
 
 ## Skills
 
-**Business Skills:** Agile/Scrum and Waterfall, Cross-functional Communication, Requirements Elicitation, CRM (Salesforce, Hubspot)
+**Business Skills:** Agile/Scrum and Waterfall, Cross-functional Communication, Requirements Elicitation, CRM (Salesforce, HubSpot)
 
 **Technical Skills:** RDBMS/SQL, Data Modeling/Mapping, Data Analytics (R, Stata), Python, Power BI, Excel (macros, pivot tables, VLOOKUP, formulas)
 
@@ -13,7 +13,7 @@ I am a recent Finance and Economics graduate from Wilfrid Laurier University wit
 Project source code: [https://github.com/Jarvis-Consulting-Group/jarvis_data_eng-riavisweswaran](https://github.com/Jarvis-Consulting-Group/jarvis_data_eng-riavisweswaran)
 
 
-**Linux Cluster Resource Monitoring App** [[GitHub](https://github.com/Jarvis-Consulting-Group/jarvis_data_eng-riavisweswaran/tree/master/linux_sql)]: Designed a database schema in PostgreSQL to retrieve hardware statistics and minute-by-minute host usage data based on requirements for the linux clustering agent team. Utilized Linux command lines, bash scripts, Docker and crontab to retrieve data. Documented scope, database modelling, diagrams and code, and stored in local and remote repositories using Git/GitHub.
+**Linux Cluster Resource Monitoring App** [[GitHub](https://github.com/Jarvis-Consulting-Group/jarvis_data_eng-riavisweswaran/tree/master/linux_sql)]: Designed a database schema in PostgreSQL to retrieve hardware statistics and minute-by-minute host usage data based on requirements for the Linux clustering agent team. Utilized Linux command lines, bash scripts, Docker and crontab to retrieve data. Documented scope, database modelling, diagrams and code, and stored in local and remote repositories using Git/GitHub.
 
 
 ## Highlighted Projects
@@ -28,7 +28,7 @@ Project source code: [https://github.com/Jarvis-Consulting-Group/jarvis_data_eng
 
 **Project Control Officer, CGI (2020-2021)**: Collaborated with SMEs in the MRD sector to conduct requirements elicitation and ensure cohesion with design and implementation of SAP projects. Worked across 13 client accounts and developed monthly Power BI reports to identify trends, patterns, and anomalies of monthly KPIs. Received an award of excellence for designing a high-level forecasting solution to meet system needs of a key client, resulting in a $200,000 statement of work.
 
-**Investment Analyst, Good News Ventures (2019)**: Worked closely with stakeholders through daily stand-ups and ensured that financial data, equity derivatives and market trends were documented to support strategic decision-making. Leveraged HubSpot's Python API to streamline data entry processes and update records for 200+ prospective investments, generating contact lists based on specific queries. Conducted meetings with CEOs of SaaS, AI and Quantum start-ups to analyze business operations and discuss potential partnerships.
+**Investment Analyst, Good News Ventures (2019)**: Collaborated closely with stakeholders through daily stand-ups and ensured that financial data, equity derivatives and market trends were documented to support strategic decision-making. Leveraged HubSpot's Python API to streamline data entry processes and update records for 200+ prospective investments, generating contact lists based on specific queries. Conducted meetings with CEOs of SaaS, AI and Quantum start-ups to analyze business operations and discuss potential partnerships.
 
 
 ## Education

@@ -19,7 +19,7 @@ skills:
     - Agile/Scrum and Waterfall
     - Cross-functional Communication
     - Requirements Elicitation
-    - CRM (Salesforce, Hubspot)
+    - CRM (Salesforce, HubSpot)
   # Please add more data related skills, such as Python, Tableau, R, Matlab, AI, ML, Statistics, etc.
   # You can also add some programming skills, such as programming languages, GIT, Linux, Cloud Platform, tools, etc.
   Technical Skills:
@@ -37,7 +37,7 @@ jarvis_projects:
     git_url: "/linux_sql"
     # Focus on BSA work instead of development work
     # Include the following keywords: BRD, SRD, Elicitation, stakeholder, reqruiement, analysis, RDBMS, SQL, data modeling, SLA
-    description: Designed a database schema in PostgreSQL to retrieve hardware statistics and minute-by-minute host usage data based on requirements for the linux clustering agent team. Utilized Linux command lines, bash scripts, Docker and crontab to retrieve data. Documented scope, database modelling, diagrams and code, and stored in local and remote repositories using Git/GitHub.
+    description: Designed a database schema in PostgreSQL to retrieve hardware statistics and minute-by-minute host usage data based on requirements for the Linux clustering agent team. Utilized Linux command lines, bash scripts, Docker and crontab to retrieve data. Documented scope, database modelling, diagrams and code, and stored in local and remote repositories using Git/GitHub.
 
 # List of personal or academic projects
 # Please focus on transferable skills, such as soft skills and data related skills
@@ -68,7 +68,7 @@ professional_experience:
   - title: "Investment Analyst"
     company: "Good News Ventures"
     duration: "2019"
-    description: "Worked closely with stakeholders through daily stand-ups and ensured that financial data, equity derivatives and market trends were documented to support strategic decision-making. Leveraged HubSpot's Python API to streamline data entry processes and update records for 200+ prospective investments, generating contact lists based on specific queries. Conducted meetings with CEOs of SaaS, AI and Quantum start-ups to analyze business operations and discuss potential partnerships."
+    description: "Collaborated closely with stakeholders through daily stand-ups and ensured that financial data, equity derivatives and market trends were documented to support strategic decision-making. Leveraged HubSpot's Python API to streamline data entry processes and update records for 200+ prospective investments, generating contact lists based on specific queries. Conducted meetings with CEOs of SaaS, AI and Quantum start-ups to analyze business operations and discuss potential partnerships."
 
 #List of edcuation
 education: 

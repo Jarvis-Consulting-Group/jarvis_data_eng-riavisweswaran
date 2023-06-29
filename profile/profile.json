@@ -20,7 +20,7 @@
   ],
   "jarvis_projects": [
     {
-      "description": "Designed a database schema in PostgreSQL to retrieve hardware statistics and minute-by-minute host usage data based on requirements for the linux clustering agent team. Utilized Linux command lines, bash scripts, Docker and crontab to retrieve data. Documented scope, database modelling, diagrams and code, and stored in local and remote repositories using Git/GitHub.",
+      "description": "Designed a database schema in PostgreSQL to retrieve hardware statistics and minute-by-minute host usage data based on requirements for the Linux clustering agent team. Utilized Linux command lines, bash scripts, Docker and crontab to retrieve data. Documented scope, database modelling, diagrams and code, and stored in local and remote repositories using Git/GitHub.",
       "git_url": "/linux_sql",
       "name": "Linux Cluster Resource Monitoring App"
     }
@@ -69,7 +69,7 @@
     },
     {
       "company": "Good News Ventures",
-      "description": "Worked closely with stakeholders through daily stand-ups and ensured that financial data, equity derivatives and market trends were documented to support strategic decision-making. Leveraged HubSpot's Python API to streamline data entry processes and update records for 200+ prospective investments, generating contact lists based on specific queries. Conducted meetings with CEOs of SaaS, AI and Quantum start-ups to analyze business operations and discuss potential partnerships.",
+      "description": "Collaborated closely with stakeholders through daily stand-ups and ensured that financial data, equity derivatives and market trends were documented to support strategic decision-making. Leveraged HubSpot's Python API to streamline data entry processes and update records for 200+ prospective investments, generating contact lists based on specific queries. Conducted meetings with CEOs of SaaS, AI and Quantum start-ups to analyze business operations and discuss potential partnerships.",
       "duration": "2019",
       "title": "Investment Analyst"
     }
@@ -79,7 +79,7 @@
       "Agile/Scrum and Waterfall",
       "Cross-functional Communication",
       "Requirements Elicitation",
-      "CRM (Salesforce, Hubspot)"
+      "CRM (Salesforce, HubSpot)"
     ],
     "Technical Skills": [
       "RDBMS/SQL",
