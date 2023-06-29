@@ -4,25 +4,25 @@ I am a recent Finance and Economics graduate from Wilfrid Laurier University wit
 
 ## Skills
 
-**Business Skills:** Agile/Scrum and Waterfall, Cross-functional Communication, Requirements Elicitation, Excel (macros, pivot tables, VLOOKUP, formulas), CRM (Salesforce, Hubspot)
+**Business Skills:** Agile/Scrum and Waterfall, Cross-functional Communication, Requirements Elicitation, CRM (Salesforce, Hubspot)
 
-**Technical Skills:** RDBMS/SQL, Data Modeling/Mapping, Data Analytics (R, Stata), Python, Power BI
+**Technical Skills:** RDBMS/SQL, Data Modeling/Mapping, Data Analytics (R, Stata), Python, Power BI, Excel (macros, pivot tables, VLOOKUP, formulas)
 
 ## Jarvis Projects
 
 Project source code: [https://github.com/Jarvis-Consulting-Group/jarvis_data_eng-riavisweswaran](https://github.com/Jarvis-Consulting-Group/jarvis_data_eng-riavisweswaran)
 
 
-**Linux Cluster Resource Monitoring App** [[GitHub](https://github.com/Jarvis-Consulting-Group/jarvis_data_eng-riavisweswaran/tree/master/linux_sql)]: Designed a database schema in PostgreSQL to retrieve hardware statistics and minute-by-minute host usage data based on requirements for the LCA team. Utilized Linux command lines, bash scripts, Docker and crontab to retrieve data. Documented scope, database modelling, diagrams and code, and stored in local and remote repositories using Git/GitHub.
+**Linux Cluster Resource Monitoring App** [[GitHub](https://github.com/Jarvis-Consulting-Group/jarvis_data_eng-riavisweswaran/tree/master/linux_sql)]: Designed a database schema in PostgreSQL to retrieve hardware statistics and minute-by-minute host usage data based on requirements for the linux clustering agent team. Utilized Linux command lines, bash scripts, Docker and crontab to retrieve data. Documented scope, database modelling, diagrams and code, and stored in local and remote repositories using Git/GitHub.
 
 
 ## Highlighted Projects
-**Research Paper - Relative-age effect in the NHL**: Used macros to automate data collation, developed a statistical model in R, and documented the impact of findings on key stakeholders. Used probit modelling and data analysis to posit solutions to complex problems.
+**Charity Fundraiser**: Spearheaded an initiative to raise over $5000 for the Down Syndrome Association of Toronto and the Arthritis Society of Canada. Wrote and directed a stage production and networked with key contacts at respective charities to coordinate a series of events. Led an online marketing campaign and collaborated with teams to present the finished product, employing effective problem-solving techniques when issues arose.
 
 
 ## Professional Experiences
 
-**Technical Consultant, Jarvis (2023-present)**: Works within an Agile/Scrum framework to collaborate with cross-functional teams and design RDBMS systems to meet the business goals. Makes recommendations for solutions or improvements that can be accomplished through new technology or alternative uses of existing technology. Possesses in-depth knowledge of Linux, SQL, PostgreSQL, Docker and VM as well as Git version control tools.
+**Technical Consultant, Jarvis (2023-present)**: Works within an Agile/Scrum framework to collaborate with cross-functional teams and design RDBMS systems to meet business goals. Makes recommendations for solutions or improvements that can be accomplished through new technology or alternative uses of existing technology. Possesses in-depth knowledge of Linux, SQL, PostgreSQL, Docker and VM as well as Git version control tools.
 
 **Research Analyst, Imzado Trading (2023)**: Analyzed macro trends of stock behaviours including scatter of variation, stock convergences and risk arbitrage to to prevent losses on investments. Leveraged R to build statistical simulations, Trello to manage workflows and Excel's VLOOKUP, statistical formulas, nested If statements, pivot tables and charts to find optimal success ratios.
 

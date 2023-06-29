@@ -19,7 +19,6 @@ skills:
     - Agile/Scrum and Waterfall
     - Cross-functional Communication
     - Requirements Elicitation
-    - Excel (macros, pivot tables, VLOOKUP, formulas)
     - CRM (Salesforce, Hubspot)
   # Please add more data related skills, such as Python, Tableau, R, Matlab, AI, ML, Statistics, etc.
   # You can also add some programming skills, such as programming languages, GIT, Linux, Cloud Platform, tools, etc.
@@ -29,6 +28,7 @@ skills:
     - Data Analytics (R, Stata)
     - Python
     - Power BI
+    - Excel (macros, pivot tables, VLOOKUP, formulas)
 
 # List of Jarvis projects
 # Please describe your resume from a BSA perspective (e.g. requirement elicitation, scope, stakeholder, coordination, diagrams)
@@ -37,15 +37,15 @@ jarvis_projects:
     git_url: "/linux_sql"
     # Focus on BSA work instead of development work
     # Include the following keywords: BRD, SRD, Elicitation, stakeholder, reqruiement, analysis, RDBMS, SQL, data modeling, SLA
-    description: Designed a database schema in PostgreSQL to retrieve hardware statistics and minute-by-minute host usage data based on requirements for the LCA team. Utilized Linux command lines, bash scripts, Docker and crontab to retrieve data. Documented scope, database modelling, diagrams and code, and stored in local and remote repositories using Git/GitHub.
+    description: Designed a database schema in PostgreSQL to retrieve hardware statistics and minute-by-minute host usage data based on requirements for the linux clustering agent team. Utilized Linux command lines, bash scripts, Docker and crontab to retrieve data. Documented scope, database modelling, diagrams and code, and stored in local and remote repositories using Git/GitHub.
 
 # List of personal or academic projects
 # Please focus on transferable skills, such as soft skills and data related skills
 highlighted_projects:
     #project name
-  - name: "Research Paper - Relative-age effect in the NHL"
+  - name: "Charity Fundraiser"
     # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: Used macros to automate data collation, developed a statistical model in R, and documented the impact of findings on key stakeholders. Used probit modelling and data analysis to posit solutions to complex problems.
+    description: Spearheaded an initiative to raise over $5000 for the Down Syndrome Association of Toronto and the Arthritis Society of Canada. Wrote and directed a stage production and networked with key contacts at respective charities to coordinate a series of events. Led an online marketing campaign and collaborated with teams to present the finished product, employing effective problem-solving techniques when issues arose.
 
 # List of professional experience
 # Please focus on transferable skills, such as soft skills and data related skills
@@ -56,7 +56,7 @@ professional_experience:
     duration: "2023-present"
     # The project description must start with an action verb (https://bit.ly/3guO98u)
     # Avoid the following terms: training, learning, etc. Instead, you should focus on the work, such as worked on XYY; Wrote ABC document; Analyzed QWE project;
-    description: "Works within an Agile/Scrum framework to collaborate with cross-functional teams and design RDBMS systems to meet the business goals. Makes recommendations for solutions or improvements that can be accomplished through new technology or alternative uses of existing technology. Possesses in-depth knowledge of Linux, SQL, PostgreSQL, Docker and VM as well as Git version control tools."
+    description: "Works within an Agile/Scrum framework to collaborate with cross-functional teams and design RDBMS systems to meet business goals. Makes recommendations for solutions or improvements that can be accomplished through new technology or alternative uses of existing technology. Possesses in-depth knowledge of Linux, SQL, PostgreSQL, Docker and VM as well as Git version control tools."
   - title: "Research Analyst"
     company: "Imzado Trading"
     duration: "2023"

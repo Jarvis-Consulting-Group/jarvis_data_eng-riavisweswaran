@@ -14,13 +14,13 @@
   "github_repo_root_url": "https://github.com/Jarvis-Consulting-Group/jarvis_data_eng-riavisweswaran",
   "highlighted_projects": [
     {
-      "description": "Used macros to automate data collation, developed a statistical model in R, and documented the impact of findings on key stakeholders. Used probit modelling and data analysis to posit solutions to complex problems.",
-      "name": "Research Paper - Relative-age effect in the NHL"
+      "description": "Spearheaded an initiative to raise over $5000 for the Down Syndrome Association of Toronto and the Arthritis Society of Canada. Wrote and directed a stage production and networked with key contacts at respective charities to coordinate a series of events. Led an online marketing campaign and collaborated with teams to present the finished product, employing effective problem-solving techniques when issues arose.",
+      "name": "Charity Fundraiser"
     }
   ],
   "jarvis_projects": [
     {
-      "description": "Designed a database schema in PostgreSQL to retrieve hardware statistics and minute-by-minute host usage data based on requirements for the LCA team. Utilized Linux command lines, bash scripts, Docker and crontab to retrieve data. Documented scope, database modelling, diagrams and code, and stored in local and remote repositories using Git/GitHub.",
+      "description": "Designed a database schema in PostgreSQL to retrieve hardware statistics and minute-by-minute host usage data based on requirements for the linux clustering agent team. Utilized Linux command lines, bash scripts, Docker and crontab to retrieve data. Documented scope, database modelling, diagrams and code, and stored in local and remote repositories using Git/GitHub.",
       "git_url": "/linux_sql",
       "name": "Linux Cluster Resource Monitoring App"
     }
@@ -51,7 +51,7 @@
   "professional_experience": [
     {
       "company": "Jarvis",
-      "description": "Works within an Agile/Scrum framework to collaborate with cross-functional teams and design RDBMS systems to meet the business goals. Makes recommendations for solutions or improvements that can be accomplished through new technology or alternative uses of existing technology. Possesses in-depth knowledge of Linux, SQL, PostgreSQL, Docker and VM as well as Git version control tools.",
+      "description": "Works within an Agile/Scrum framework to collaborate with cross-functional teams and design RDBMS systems to meet business goals. Makes recommendations for solutions or improvements that can be accomplished through new technology or alternative uses of existing technology. Possesses in-depth knowledge of Linux, SQL, PostgreSQL, Docker and VM as well as Git version control tools.",
       "duration": "2023-present",
       "title": "Technical Consultant"
     },
@@ -79,7 +79,6 @@
       "Agile/Scrum and Waterfall",
       "Cross-functional Communication",
       "Requirements Elicitation",
-      "Excel (macros, pivot tables, VLOOKUP, formulas)",
       "CRM (Salesforce, Hubspot)"
     ],
     "Technical Skills": [
@@ -87,7 +86,8 @@
       "Data Modeling/Mapping",
       "Data Analytics (R, Stata)",
       "Python",
-      "Power BI"
+      "Power BI",
+      "Excel (macros, pivot tables, VLOOKUP, formulas)"
     ]
   },
   "summary": "I am a recent Finance and Economics graduate from Wilfrid Laurier University with 1.5 years of cross-functional work experience and knowledge of RDBMS. Through my research initiatives, I have developed a keen interest in analyzing business systems and identifying opportunities to improve processes. My background in consulting has enabled me to liaise between clients, SMEs and implementation teams to coordinate SLAs. Additionally, I am proud to be the founder of several charity initiatives that have raised funds for the Down Syndrome Association of Toronto and the Arthritis Society of Canada. I am excited to bring my dynamic leadership skills, collaborative mindset, and technical experience to a full-time business systems analyst role."
