@@ -1,6 +1,6 @@
 # Ria Visweswaran . Jarvis Consulting
 
-As a recent Finance and Economics graduate from Wilfrid Laurier University, I have taken several courses in RDBMS and developed a keen interest in business systems analysis. My internships have led across broad spheres of the fintech space, starting at a venture capital firm where I networked with founders of start-up technology companies, documented their processes and leveraged Python APIs to streamline data entry. At CGI, I liaised between clients, SMEs and implementation teams for requirements elicitation and to ensure that SLAs were being met. Additionally, I am proud to be the founder of several charity initiatives that have raised funds for the Down Syndrome Association of Toronto and the Arthritis Society of Canada. I am excited to bring my dynamic leadership experience, collaborative skills and technical experience to a full-time business systems analyst role.
+I am a recent Finance and Economics graduate from Wilfrid Laurier University with 1.5 years of cross-functional work experience and knowledge of RDBMS. Through my research initiatives, I have developed a keen interest in analyzing business systems and identifying opportunities to improve processes. My background in consulting has enabled me to liaise between clients, SMEs and implementation teams to coordinate SLAs. Additionally, I am proud to be the founder of several charity initiatives that have raised funds for the Down Syndrome Association of Toronto and the Arthritis Society of Canada. I am excited to bring my dynamic leadership skills, collaborative mindset, and technical experience to a full-time business systems analyst role.
 
 ## Skills
 
@@ -22,7 +22,7 @@ Project source code: [https://github.com/Jarvis-Consulting-Group/jarvis_data_eng
 
 ## Professional Experiences
 
-**Technical Consultant, Jarvis (2023-present)**: Work within an Agile/Scrum framework to collaborate with cross-functional teams and design RDBMS systems to meet the business goals. Making recommendations for solutions or improvements that can be accomplished through new technology or alternative uses of existing technology. Possess in-depth knowledge of Linux, SQL, PostgreSQL, Docker and VM as well as Git version control tools.
+**Technical Consultant, Jarvis (2023-present)**: Works within an Agile/Scrum framework to collaborate with cross-functional teams and design RDBMS systems to meet the business goals. Makes recommendations for solutions or improvements that can be accomplished through new technology or alternative uses of existing technology. Possesses in-depth knowledge of Linux, SQL, PostgreSQL, Docker and VM as well as Git version control tools.
 
 **Research Analyst, Imzado Trading (2023)**: Analyzed macro trends of stock behaviours including scatter of variation, stock convergences and risk arbitrage to to prevent losses on investments. Leveraged R to build statistical simulations, Trello to manage workflows and Excel's VLOOKUP, statistical formulas, nested If statements, pivot tables and charts to find optimal success ratios.
 
