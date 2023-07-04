@@ -2,7 +2,7 @@
 
 This project utilizes PostgresQL to analyse data pertaining to a newly created country club. The schema contains information about the members, facilities such as tennis courts, and booking histories for those amenities. The database is designed for club management to write queries so that they can analyse facility usage and demand as well as make decisions about operational efficiencies.
 
-As depicted in the diagram below, the primary and foreign keys are stored as member and facility IDs.
+As depicted in the diagram below, the primary and foreign keys are stored as member IDs, a reference to the member that recommended them, and facility IDs.
 
 ![image info](schema.png)
 
@@ -143,7 +143,7 @@ UNION
 SELECT name FROM cd.facilities;
 ``` 
 
-## JOIN
+## Join
 
 ###### Question 12
 How can you produce a list of the start times for bookings by members named 'David Farrell'?
