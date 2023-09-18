@@ -1,7 +1,5 @@
 # Introduction
-- Describe the business context of this project (please do not copy-paste text from the project kick-off ticket)
-- Also, describe how LGS would use your analytic result (hint: see kick-off ticket)
-- Describe your work and technologies used (e.g. Jupyter Notebook, Python libraries, data analytics, data warehouse, etc.)
+- Structured retailer data was analyzed using data wrangling and OLAP methodologies to generate statistical insights for a prospective marketing team. Customers were segmented into RFM categories utilizing Python Pandas and SQL querying. The analysis was performed within a Python Jupyter notebook, incorporating common visualizations to effectively illustrate trends and patterns in the data. This comprehensive analysis serves as a valuable resource for the marketing team, offering actionable insight for targeted marketing strategies and informed decision-making processes.
 
 # Implementaion
 ## Project Architecture
